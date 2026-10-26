@@ -1,0 +1,10 @@
+# Serca na starcie (10 = standardowe 20 HP)
+start-hearts: 10
+# Maksymalna liczba serc
+max-hearts: 20
+# Na ile godzin ban po utracie ostatniego serca
+ban-hours: 24
+# Ile serc dostaje gracz po wygaśnięciu bana lub odrodzeniu księgą
+revive-hearts: 3
+# true = serce tracisz po każdej śmierci, false = tylko gdy zabije Cię gracz
+lose-heart-on-any-death: true
