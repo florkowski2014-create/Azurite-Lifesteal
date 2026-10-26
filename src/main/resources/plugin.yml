@@ -1,0 +1,17 @@
+name: AzuriteLifesteal
+version: 1.0.0
+main: pl.azurite.lifesteal.AzuriteLifesteal
+api-version: '1.21'
+commands:
+  wyplac:
+    description: Wypłać serce jako przedmiot
+    usage: /wyplac [ilość]
+  odrodz:
+    description: Odrodź gracza za pomocą Księgi Odrodzenia
+    usage: /odrodz <nick>
+  azurite-lf:
+    description: Komendy administracyjne lifesteala
+    usage: /azurite-lf give <serce|ksiazkaodrodzenia> [1-64] [gracz]
+permissions:
+  azurite.lf.admin:
+    default: op
